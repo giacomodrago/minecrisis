@@ -1,0 +1,74 @@
+*****************************
+*** MineCrisis v0.91 beta ***
+*****************************
+
+(c)2010 Giacomo Drago. All rights reserved.
+Released under the terms of the GPLv3 license
+(see LICENSE for details)
+
+website: http://giacomodrago.com/go/minecrisis
+e-mail: giacomo@giacomodrago.com
+
+
+________________________________
+
+COPYRIGHT OF THE RESOURCES (stored under "data" directory)
+
+Spaceship model (ship.ase):
+    http://www.turbosquid.com/3d-models/space-scout-lwo-free/360974
+    (c) Klar Design
+
+Starmap (starmap.png):
+    http://local.wasp.uwa.edu.au/~pbourke/miscellaneous/starfield/
+    (c)2001 Paul Bourke
+
+Planet texture (planet.png):
+    http://planetpixelemporium.com/pluto.html
+    (c)2006 James Hastings
+
+Background Music (music.ogg):
+    http://www.jamendo.com/en/album/2102
+    Nexus - Space Opera - Imagina dreams
+    Released under Creative Commons BY-NC-ND license v2.5.
+    Using with express permission from the Author.
+    Website of the artist: www.nexus-trance.fr
+
+afterburner.png:
+    unknown source(*)
+
+invisibility.png:
+    unknown source(*)
+
+shield.png:
+    unknown source(*)
+
+alarm.wav:
+    http://www.freesound.org/samplesViewSingle.php?id=57806
+
+beep.wav:
+    http://www.freesound.org/samplesViewSingle.php?id=37732
+
+checkpoint.wav:
+    http://www.freesound.org/samplesViewSingle.php?id=81019
+
+gameover_lose.wav:
+    unknown source(*)
+
+gameover_win.wav:
+    unknown source(*)
+
+mine.wav:
+    http://www.freesound.org/samplesViewSingle.php?id=47252
+
+shield.wav:
+    http://www.freesound.org/samplesViewSingle.php?id=104576
+
+shot.wav:
+    http://www.freesound.org/samplesViewSingle.php?id=35677
+
+________________________________
+(*) Unknown source: the file has been probably downloaded from the Internet
+but I just don't know what is the actual source. If you are the author
+or the copyright holder of any of these resources, please send me an e-mail
+at giacomo@giacomodrago.com asking for the removal of the resource or correct
+attribution.

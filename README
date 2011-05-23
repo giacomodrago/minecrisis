@@ -1,0 +1,78 @@
+*****************************
+*** MineCrisis v0.91 beta ***
+*****************************
+
+(c)2010 Giacomo Drago. All rights reserved.
+Released under the terms of the GPLv3 license
+(see LICENSE for details)
+
+website: http://giacomodrago.com/go/minecrisis
+e-mail: giacomo@giacomodrago.com
+
+
+________________________________________________________________________
+
+                               README
+                               
+                               
+ABOUT
+
+MineCrisis is a 3D action game. The player controls a spaceship; the aim
+of the game is to reach all the checkpoints of the map within the
+remaining time, preventing the spaceship from being destroyed by the
+mines and the shots of the automatic turrets.
+
+
+
+NEWS / CHANGELOG
+
+2010-10-16        Version 0.91 beta released: fixed some minor issues,
+                  added more info in the README, published builds for Linux
+2010-10-14        Version 0.9 beta released
+
+
+
+HOW TO PLAY
+
+Reach all the checkpoints in the remaining time. The checkpoints are
+represented by yellow intermittent spheres: everytime you reach a
+checkpoint you get some extra time. Avoid hitting the mines (represented
+by barely seeable magenta spheres), and try to dodge the turrets' shots by
+continuously changing direction. The turrets are represented by black
+shiny spheres that fire against the ship everytime it enters their
+rifle-range.
+The shield protects you from both mines and shots, but when it's out of
+energy any damage will break your ship down.
+Use the Afterburner (turbo) and the Invisibility abilities to elude
+the automatic turrets.
+NOTE: when you use invisibility you can't see the mines - at all.
+
+
+
+GAME CONTROLS
+
+ESC       Exit game (without confirm)
+arrows    Change direction
+W         Accelerate
+S         Decelerate
+A         Rotate left
+D         Rotate right
+X         Enable/disable invisibility
+spacebar  Afterburner (turbo)
+F2        New game
+F11       Toggle fullscreen
+
+
+
+ON-SCREEN INDICATORS
+(from left to right)
+
+1. Shield energy indicator:
+     shield energy decreases when the spaceship hits a mine or gets
+     hit by an automatic turret shot. It slowly recharges when idle.
+2. Invisibility energy indicator:
+     invisibility energy decreases when the invisibility ability is
+     enabled and slowly recharges when it's disabled.
+3. Afterburner (turbo) "fuel" indicator
+     afterburner "fuel" gets consumed when the afterburner is engaged
+     and slowly recharges when it's idle.

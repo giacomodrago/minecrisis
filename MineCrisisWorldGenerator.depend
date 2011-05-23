@@ -1,0 +1,149 @@
+# depslib dependency file v1.0
+1280074770 source:/media/DATI/Giacomo/Documenti/Università/Informatica Grafica/Progetto/src/world_gen/world_gen.cpp
+	<stdlib.h>
+	<stdio.h>
+	"../common/geom.h"
+	"../common/random.h"
+
+1280075389 /media/DATI/Giacomo/Documenti/Università/Informatica Grafica/Progetto/src/common/geom.h
+	<math.h>
+
+1279967370 /media/DATI/Giacomo/Documenti/Università/Informatica Grafica/Progetto/src/common/random.h
+	<stdlib.h>
+	<time.h>
+
+1280310523 source:/home/michela/Scrivania/Giacomo/Progetto/src/world_gen/world_gen.cpp
+	<stdlib.h>
+	<stdio.h>
+	"../common/geom.h"
+	"../common/world.h"
+	"../common/random.h"
+
+1280309130 /home/michela/Scrivania/Giacomo/Progetto/src/common/geom.h
+	<math.h>
+
+1279967372 /home/michela/Scrivania/Giacomo/Progetto/src/common/random.h
+	<stdlib.h>
+	<time.h>
+
+1280308537 /home/michela/Scrivania/Giacomo/Progetto/src/common/world.h
+
+1282241577 source:/media/DATI/Giacomo/Documenti/Università/Informatica Grafica/Progetto/Progetto 2/src/world_gen/world_gen.cpp
+	<stdlib.h>
+	<stdio.h>
+	"../common/geom.h"
+	"../common/world.h"
+	"../common/random.h"
+
+1282244839 /media/DATI/Giacomo/Documenti/Università/Informatica Grafica/Progetto/Progetto 2/src/common/geom.h
+	<stdlib.h>
+	<math.h>
+
+1282244702 /media/DATI/Giacomo/Documenti/Università/Informatica Grafica/Progetto/Progetto 2/src/common/world.h
+	<stdlib.h>
+
+1282248096 /media/DATI/Giacomo/Documenti/Università/Informatica Grafica/Progetto/Progetto 2/src/common/random.h
+	<stdlib.h>
+	<time.h>
+
+1282248969 source:/media/DATI/Giacomo/Documenti/Università/Informatica Grafica/Progetto/Progetto 2/src/world_gen/world_gen.c
+	<stdlib.h>
+	<stdio.h>
+	"../common/geom.h"
+	"../common/world.h"
+	"../common/random.h"
+
+1285617979 source:/home/giacomo/Scrivania/Progetto 2/src/geom.c
+	<stdlib.h>
+	<math.h>
+	"geom.h"
+
+1285349182 /home/giacomo/Scrivania/Progetto 2/src/geom.h
+	<stdbool.h>
+	"bounding_boxes.h"
+
+1285316899 /home/giacomo/Scrivania/Progetto 2/src/bounding_boxes.h
+	<stdbool.h>
+
+1285603156 source:/home/giacomo/Scrivania/Progetto 2/src/random.c
+	<stdlib.h>
+	<time.h>
+	"random.h"
+
+1285601426 /home/giacomo/Scrivania/Progetto 2/src/random.h
+
+1285845512 source:/home/giacomo/Scrivania/Progetto 2/src/utils.c
+	<string.h>
+	<stdarg.h>
+	<float.h>
+	"utils.h"
+	<sys/time.h>
+	<windows.h>
+
+1285772986 /home/giacomo/Scrivania/Progetto 2/src/utils.h
+	<stdbool.h>
+
+1285844323 source:/home/giacomo/Scrivania/Progetto 2/src/world.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"world.h"
+
+1285254329 /home/giacomo/Scrivania/Progetto 2/src/world.h
+	"utils.h"
+	"geom.h"
+
+1285601542 source:/home/giacomo/Scrivania/Progetto 2/src/world_gen.c
+	<stdlib.h>
+	<stdio.h>
+	"geom.h"
+	"random.h"
+	"utils.h"
+	"world.h"
+
+1285617980 source:/mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/geom.c
+	<stdlib.h>
+	<math.h>
+	"geom.h"
+
+1286203000 /mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/geom.h
+	<stdbool.h>
+	"bounding_boxes.h"
+
+1286203034 /mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/bounding_boxes.h
+	<stdbool.h>
+
+1286203240 source:/mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/random.c
+	<stdlib.h>
+	<time.h>
+	"random.h"
+
+1286203220 /mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/random.h
+
+1287063613 source:/mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/utils.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<stdarg.h>
+	<float.h>
+	"utils.h"
+	<sys/time.h>
+	<windows.h>
+
+1287063567 /mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/utils.h
+	<stdbool.h>
+	"crc32.h"
+
+1286574065 /mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/crc32.h
+	<stdint.h>
+
+1285844324 source:/mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/world.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"world.h"
+
+1287062599 /mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/world.h
+	"utils.h"
+	"geom.h"
+

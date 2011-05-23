@@ -1,0 +1,1195 @@
+# depslib dependency file v1.0
+1284925071 source:/home/giacomo/Scrivania/Progetto 2/src/space_minesweeper.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+	<GL/glut.h>
+	"geom.h"
+	"world.h"
+	"draw.h"
+	"utils.h"
+	"contrib/texture.h"
+	"contrib/ase_importer.h"
+
+1284925071 se_importer.h"
+
+1286202999 /home/giacomo/Scrivania/Progetto 2/src/geom.h
+	<stdbool.h>
+	"bounding_boxes.h"
+
+1286203000 boxes.h"
+
+1286202967 /home/giacomo/Scrivania/Progetto 2/src/world.h
+	"utils.h"
+	"geom.h"
+
+1286203240 
+
+1285772986 /home/giacomo/Scrivania/Progetto 2/src/utils.h
+	<stdbool.h>
+
+1287063613 >
+
+1286133777 /home/giacomo/Scrivania/Progetto 2/src/draw.h
+	<stdbool.h>
+	"opengl.h"
+	"world.h"
+	"ase_importer.h"
+	"bounding_boxes.h"
+	"texture.h"
+	"explosion.h"
+
+1287059174 .h"
+
+1286133794 /home/giacomo/Scrivania/Progetto 2/src/texture.h
+	"opengl.h"
+
+1285754490 /home/giacomo/Scrivania/Progetto 2/src/contrib/texture.h
+	"../opengl.h"
+
+1285753196 /home/giacomo/Scrivania/Progetto 2/src/contrib/ase_importer.h
+	<stdbool.h>
+	"../bounding_boxes.h"
+
+1285753196 ng_boxes.h"
+
+1285361901 source:/home/giacomo/Scrivania/Progetto 2/src/contrib/ase_importer.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<float.h>
+	"../opengl.h"
+	"ase_importer.h"
+
+1285953678 ter.h"
+
+1286200882 /home/giacomo/Scrivania/Progetto 2/src/opengl.h
+	<GL/gl.h>
+	<GL/glut.h>
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+
+1286200882 .h>
+
+1285755564 source:/home/giacomo/Scrivania/Progetto 2/src/contrib/texture.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<png.h>
+	"texture.h"
+
+1286133904 "
+
+1285617979 source:/home/giacomo/Scrivania/Progetto 2/src/geom.c
+	<stdlib.h>
+	<math.h>
+	"geom.h"
+
+1286203281 source:/home/giacomo/Scrivania/Progetto 2/src/mine_crisis.c
+	"mine_crisis.h"
+
+1287236092 is.h"
+
+1286203239 source:/home/giacomo/Scrivania/Progetto 2/src/random.c
+	<stdlib.h>
+	<time.h>
+	"random.h"
+
+1286203220 /home/giacomo/Scrivania/Progetto 2/src/random.h
+
+1285845512 source:/home/giacomo/Scrivania/Progetto 2/src/utils.c
+	<string.h>
+	<stdarg.h>
+	<float.h>
+	"utils.h"
+	<sys/time.h>
+	<windows.h>
+
+1285844323 source:/home/giacomo/Scrivania/Progetto 2/src/world.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"world.h"
+
+1286133668 source:/home/giacomo/Scrivania/Progetto 2/src/draw.c
+	<string.h>
+	"texture.h"
+	"draw.h"
+
+1286203060 source:/home/giacomo/Scrivania/Progetto 2/src/bounding_boxes.c
+	<stdlib.h>
+	<stdio.h>
+	"bounding_boxes.h"
+
+1286203034 /home/giacomo/Scrivania/Progetto 2/src/bounding_boxes.h
+	<stdbool.h>
+
+1286133653 /home/giacomo/Scrivania/Progetto 2/src/explosion.h
+	"geom.h"
+	"utils.h"
+
+1286203276 source:/home/giacomo/Scrivania/Progetto 2/src/explosion.c
+	<stdbool.h>
+	<math.h>
+	<string.h>
+	"opengl.h"
+	"explosion.h"
+	"random.h"
+
+1286202897 /home/giacomo/Scrivania/Progetto 2/src/mine_crisis.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+	<math.h>
+	<float.h>
+	"opengl.h"
+	"openal.h"
+	"geom.h"
+	"world.h"
+	"draw.h"
+	"utils.h"
+	"random.h"
+	"texture.h"
+	"ase_importer.h"
+	"bounding_boxes.h"
+	"sound.h"
+	"explosion.h"
+	"consts.h"
+
+1286201731 /home/giacomo/Scrivania/Progetto 2/src/consts.h
+
+1285953677 source:/home/giacomo/Scrivania/Progetto 2/src/ase_importer.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<float.h>
+	"opengl.h"
+	"ase_importer.h"
+
+1286203321 /home/giacomo/Scrivania/Progetto 2/src/ase_importer.h
+	<stdbool.h>
+	"bounding_boxes.h"
+
+1286133904 source:/home/giacomo/Scrivania/Progetto 2/src/texture.c
+	<stdlib.h>
+	<stdbool.h>
+	<stdio.h>
+	<string.h>
+	<png.h>
+	"texture.h"
+
+1286202466 source:/home/giacomo/Scrivania/Progetto 2/src/sound.c
+	"sound.h"
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<ogg/ogg.h>
+	<vorbis/codec.h>
+	<vorbis/vorbisenc.h>
+	<vorbis/vorbisfile.h>
+
+1286202466 rbisfile.h>
+
+1286202286 /home/giacomo/Scrivania/Progetto 2/src/sound.h
+	"geom.h"
+	"openal.h"
+
+1286201815 /home/giacomo/Scrivania/Progetto 2/src/openal.h
+	<AL/al.h>
+	<AL/alc.h>
+	<OpenAL/OpenAL.h>
+	<OpenCL/opencl.h>
+
+1286201815 encl.h>
+
+1285953677 source:/home/giacomo/Scrivania/MineCrisis/src/ase_importer.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<float.h>
+	"opengl.h"
+	"ase_importer.h"
+
+1286200882 /home/giacomo/Scrivania/MineCrisis/src/opengl.h
+	<GL/gl.h>
+	<GL/glut.h>
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+
+1286203672 /home/giacomo/Scrivania/MineCrisis/src/ase_importer.h
+	<stdbool.h>
+	"bounding_boxes.h"
+
+1286203034 /home/giacomo/Scrivania/MineCrisis/src/bounding_boxes.h
+	<stdbool.h>
+
+1286203060 source:/home/giacomo/Scrivania/MineCrisis/src/bounding_boxes.c
+	<stdlib.h>
+	<stdio.h>
+	"bounding_boxes.h"
+
+1286133668 source:/home/giacomo/Scrivania/MineCrisis/src/draw.c
+	<string.h>
+	"texture.h"
+	"draw.h"
+
+1286133794 /home/giacomo/Scrivania/MineCrisis/src/texture.h
+	"opengl.h"
+
+1286133777 /home/giacomo/Scrivania/MineCrisis/src/draw.h
+	<stdbool.h>
+	"opengl.h"
+	"world.h"
+	"ase_importer.h"
+	"bounding_boxes.h"
+	"texture.h"
+	"explosion.h"
+
+1286202967 /home/giacomo/Scrivania/MineCrisis/src/world.h
+	"utils.h"
+	"geom.h"
+
+1285772986 /home/giacomo/Scrivania/MineCrisis/src/utils.h
+	<stdbool.h>
+
+1286202999 /home/giacomo/Scrivania/MineCrisis/src/geom.h
+	<stdbool.h>
+	"bounding_boxes.h"
+
+1286133653 /home/giacomo/Scrivania/MineCrisis/src/explosion.h
+	"geom.h"
+	"utils.h"
+
+1286204832 source:/home/giacomo/Scrivania/MineCrisis/src/explosion.c
+	<stdlib.h>
+	<stdbool.h>
+	<math.h>
+	<string.h>
+	"opengl.h"
+	"explosion.h"
+	"random.h"
+
+1286203220 /home/giacomo/Scrivania/MineCrisis/src/random.h
+
+1285617979 source:/home/giacomo/Scrivania/MineCrisis/src/geom.c
+	<stdlib.h>
+	<math.h>
+	"geom.h"
+
+1286203239 source:/home/giacomo/Scrivania/MineCrisis/src/random.c
+	<stdlib.h>
+	<time.h>
+	"random.h"
+
+1286202466 source:/home/giacomo/Scrivania/MineCrisis/src/sound.c
+	"sound.h"
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<ogg/ogg.h>
+	<vorbis/codec.h>
+	<vorbis/vorbisenc.h>
+	<vorbis/vorbisfile.h>
+
+1286202286 /home/giacomo/Scrivania/MineCrisis/src/sound.h
+	"geom.h"
+	"openal.h"
+
+1286206032 /home/giacomo/Scrivania/MineCrisis/src/openal.h
+	<AL/al.h>
+	<AL/alc.h>
+	<OpenAL/al.h>
+	<OpenAL/alc.h>
+
+1286206032 c.h>
+
+1286133904 source:/home/giacomo/Scrivania/MineCrisis/src/texture.c
+	<stdlib.h>
+	<stdbool.h>
+	<stdio.h>
+	<string.h>
+	<png.h>
+	"texture.h"
+
+1285845512 source:/home/giacomo/Scrivania/MineCrisis/src/utils.c
+	<string.h>
+	<stdarg.h>
+	<float.h>
+	"utils.h"
+	<sys/time.h>
+	<windows.h>
+
+1285844323 source:/home/giacomo/Scrivania/MineCrisis/src/world.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"world.h"
+
+1286205715 source:/home/giacomo/Scrivania/MineCrisis/src/mine_crisis.c
+	"mine_crisis.h"
+
+1286202897 /home/giacomo/Scrivania/MineCrisis/src/mine_crisis.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+	<math.h>
+	<float.h>
+	"opengl.h"
+	"openal.h"
+	"geom.h"
+	"world.h"
+	"draw.h"
+	"utils.h"
+	"random.h"
+	"texture.h"
+	"ase_importer.h"
+	"bounding_boxes.h"
+	"sound.h"
+	"explosion.h"
+	"consts.h"
+
+1286205754 /home/giacomo/Scrivania/MineCrisis/src/consts.h
+
+1285953678 source:/media/DATI/Giacomo/Progetti/C/MineCrisis/src/ase_importer.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<float.h>
+	"opengl.h"
+	"ase_importer.h"
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<float.h>
+	"opengl.h"
+	"ase_importer.h"
+
+1286200882 /media/DATI/Giacomo/Progetti/C/MineCrisis/src/opengl.h
+	<GL/gl.h>
+	<GL/glut.h>
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/gl.h>
+	<GL/glut.h>
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+
+1286203672 /media/DATI/Giacomo/Progetti/C/MineCrisis/src/ase_importer.h
+	<stdbool.h>
+	"bounding_boxes.h"
+	<stdbool.h>
+	"bounding_boxes.h"
+
+1286203034 /media/DATI/Giacomo/Progetti/C/MineCrisis/src/bounding_boxes.h
+	<stdbool.h>
+	<stdbool.h>
+
+1286203060 source:/media/DATI/Giacomo/Progetti/C/MineCrisis/src/bounding_boxes.c
+	<stdlib.h>
+	<stdio.h>
+	"bounding_boxes.h"
+	<stdlib.h>
+	<stdio.h>
+	"bounding_boxes.h"
+
+1286488112 source:/media/DATI/Giacomo/Progetti/C/MineCrisis/src/draw.c
+	<string.h>
+	"texture.h"
+	"draw.h"
+	<string.h>
+	"texture.h"
+	"draw.h"
+
+1286608784 /media/DATI/Giacomo/Progetti/C/MineCrisis/src/texture.h
+	"opengl.h"
+	"opengl.h"
+
+1286625417 /media/DATI/Giacomo/Progetti/C/MineCrisis/src/draw.h
+	<stdbool.h>
+	"opengl.h"
+	"world.h"
+	"ase_importer.h"
+	"bounding_boxes.h"
+	"texture.h"
+	"explosion.h"
+	<stdbool.h>
+	"opengl.h"
+	"world.h"
+	"ase_importer.h"
+	"bounding_boxes.h"
+	"texture.h"
+	"explosion.h"
+
+1287062599 /media/DATI/Giacomo/Progetti/C/MineCrisis/src/world.h
+	"utils.h"
+	"geom.h"
+	"utils.h"
+	"geom.h"
+
+1287063567 /media/DATI/Giacomo/Progetti/C/MineCrisis/src/utils.h
+	<stdbool.h>
+	"crc32.h"
+	<stdbool.h>
+	"crc32.h"
+
+1286203000 /media/DATI/Giacomo/Progetti/C/MineCrisis/src/geom.h
+	<stdbool.h>
+	"bounding_boxes.h"
+	<stdbool.h>
+	"bounding_boxes.h"
+
+1286133654 /media/DATI/Giacomo/Progetti/C/MineCrisis/src/explosion.h
+	"geom.h"
+	"utils.h"
+	"geom.h"
+	"utils.h"
+
+1286204832 source:/media/DATI/Giacomo/Progetti/C/MineCrisis/src/explosion.c
+	<stdlib.h>
+	<stdbool.h>
+	<math.h>
+	<string.h>
+	"opengl.h"
+	"explosion.h"
+	"random.h"
+	<stdlib.h>
+	<stdbool.h>
+	<math.h>
+	<string.h>
+	"opengl.h"
+	"explosion.h"
+	"random.h"
+
+1286203220 /media/DATI/Giacomo/Progetti/C/MineCrisis/src/random.h
+
+1285617980 source:/media/DATI/Giacomo/Progetti/C/MineCrisis/src/geom.c
+	<stdlib.h>
+	<math.h>
+	"geom.h"
+	<stdlib.h>
+	<math.h>
+	"geom.h"
+
+1286203240 source:/media/DATI/Giacomo/Progetti/C/MineCrisis/src/random.c
+	<stdlib.h>
+	<time.h>
+	"random.h"
+	<stdlib.h>
+	<time.h>
+	"random.h"
+
+1286920108 source:/media/DATI/Giacomo/Progetti/C/MineCrisis/src/sound.c
+	"sound.h"
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"utils.h"
+	"sound.h"
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"utils.h"
+
+1286920246 /media/DATI/Giacomo/Progetti/C/MineCrisis/src/sound.h
+	"geom.h"
+	"openal.h"
+	"geom.h"
+	"openal.h"
+
+1286206032 /media/DATI/Giacomo/Progetti/C/MineCrisis/src/openal.h
+	<AL/al.h>
+	<AL/alc.h>
+	<OpenAL/al.h>
+	<OpenAL/alc.h>
+	<AL/al.h>
+	<AL/alc.h>
+	<OpenAL/al.h>
+	<OpenAL/alc.h>
+
+1287063519 source:/media/DATI/Giacomo/Progetti/C/MineCrisis/src/texture.c
+	<stdlib.h>
+	<stdbool.h>
+	<stdio.h>
+	<string.h>
+	<png.h>
+	"texture.h"
+	"utils.h"
+	<stdlib.h>
+	<stdbool.h>
+	<stdio.h>
+	<string.h>
+	<png.h>
+	"texture.h"
+	"utils.h"
+
+1287063613 source:/media/DATI/Giacomo/Progetti/C/MineCrisis/src/utils.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<stdarg.h>
+	<float.h>
+	"utils.h"
+	<sys/time.h>
+	<windows.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<stdarg.h>
+	<float.h>
+	"utils.h"
+	<sys/time.h>
+	<windows.h>
+
+1285844324 source:/media/DATI/Giacomo/Progetti/C/MineCrisis/src/world.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"world.h"
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"world.h"
+
+1287063721 source:/media/DATI/Giacomo/Progetti/C/MineCrisis/src/mine_crisis.c
+	"mine_crisis.h"
+	"mine_crisis.h"
+
+1287062839 /media/DATI/Giacomo/Progetti/C/MineCrisis/src/mine_crisis.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+	<math.h>
+	<float.h>
+	"consts.h"
+	"opengl.h"
+	"openal.h"
+	"geom.h"
+	"world.h"
+	"draw.h"
+	"utils.h"
+	"crc32.h"
+	"random.h"
+	"texture.h"
+	"ase_importer.h"
+	"bounding_boxes.h"
+	"sound.h"
+	"music.h"
+	"explosion.h"
+	"resources.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+	<math.h>
+	<float.h>
+	"consts.h"
+	"opengl.h"
+	"openal.h"
+	"geom.h"
+	"world.h"
+	"draw.h"
+	"utils.h"
+	"crc32.h"
+	"random.h"
+	"texture.h"
+	"ase_importer.h"
+	"bounding_boxes.h"
+	"sound.h"
+	"music.h"
+	"explosion.h"
+	"resources.h"
+
+1287062586 /media/DATI/Giacomo/Progetti/C/MineCrisis/src/consts.h
+
+1287059174 source:/media/DATI/Giacomo/Progetti/C/MineCrisis/src/resources.c
+	"resources.h"
+	"resources.h"
+
+1287059207 /media/DATI/Giacomo/Progetti/C/MineCrisis/src/resources.h
+
+1286574070 source:/media/DATI/Giacomo/Progetti/C/MineCrisis/src/crc32.c
+	"crc32.h"
+	<stdio.h>
+	"crc32.h"
+	<stdio.h>
+
+1286574065 /media/DATI/Giacomo/Progetti/C/MineCrisis/src/crc32.h
+	<stdint.h>
+	<stdint.h>
+
+1287063470 /media/DATI/Giacomo/Progetti/C/MineCrisis/src/music.h
+	<pthread.h>
+	<ogg/ogg.h>
+	<vorbis/codec.h>
+	<vorbis/vorbisenc.h>
+	<vorbis/vorbisfile.h>
+	<pthread.h>
+	<ogg/ogg.h>
+	<vorbis/codec.h>
+	<vorbis/vorbisenc.h>
+	<vorbis/vorbisfile.h>
+	"utils.h"
+
+1287059427 source:/media/DATI/Giacomo/Progetti/C/MineCrisis/src/music.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"utils.h"
+	"openal.h"
+	"sound.h"
+	"music.h"
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"utils.h"
+	"openal.h"
+	"sound.h"
+	"music.h"
+
+1285953678 source:e:\giacomo\progetti\c\minecrisis\src\ase_importer.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<float.h>
+	"opengl.h"
+	"ase_importer.h"
+
+1286200882 e:\giacomo\progetti\c\minecrisis\src\opengl.h
+	<GL/gl.h>
+	<GL/glut.h>
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+
+1286203672 e:\giacomo\progetti\c\minecrisis\src\ase_importer.h
+	<stdbool.h>
+	"bounding_boxes.h"
+
+1286203034 e:\giacomo\progetti\c\minecrisis\src\bounding_boxes.h
+	<stdbool.h>
+
+1286203060 source:e:\giacomo\progetti\c\minecrisis\src\bounding_boxes.c
+	<stdlib.h>
+	<stdio.h>
+	"bounding_boxes.h"
+
+1286574070 source:e:\giacomo\progetti\c\minecrisis\src\crc32.c
+	"crc32.h"
+	<stdio.h>
+
+1286574065 e:\giacomo\progetti\c\minecrisis\src\crc32.h
+	<stdint.h>
+
+1286488112 source:e:\giacomo\progetti\c\minecrisis\src\draw.c
+	<string.h>
+	"texture.h"
+	"draw.h"
+
+1286608784 e:\giacomo\progetti\c\minecrisis\src\texture.h
+	"opengl.h"
+
+1286625417 e:\giacomo\progetti\c\minecrisis\src\draw.h
+	<stdbool.h>
+	"opengl.h"
+	"world.h"
+	"ase_importer.h"
+	"bounding_boxes.h"
+	"texture.h"
+	"explosion.h"
+
+1287062599 e:\giacomo\progetti\c\minecrisis\src\world.h
+	"utils.h"
+	"geom.h"
+
+1287063567 e:\giacomo\progetti\c\minecrisis\src\utils.h
+	<stdbool.h>
+	"crc32.h"
+
+1286203000 e:\giacomo\progetti\c\minecrisis\src\geom.h
+	<stdbool.h>
+	"bounding_boxes.h"
+
+1286133654 e:\giacomo\progetti\c\minecrisis\src\explosion.h
+	"geom.h"
+	"utils.h"
+
+1286204832 source:e:\giacomo\progetti\c\minecrisis\src\explosion.c
+	<stdlib.h>
+	<stdbool.h>
+	<math.h>
+	<string.h>
+	"opengl.h"
+	"explosion.h"
+	"random.h"
+
+1286203220 e:\giacomo\progetti\c\minecrisis\src\random.h
+
+1285617980 source:e:\giacomo\progetti\c\minecrisis\src\geom.c
+	<stdlib.h>
+	<math.h>
+	"geom.h"
+
+1287525184 source:e:\giacomo\progetti\c\minecrisis\src\mine_crisis.c
+	"mine_crisis.h"
+
+1287525210 e:\giacomo\progetti\c\minecrisis\src\mine_crisis.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+	<math.h>
+	<unistd.h>
+	"consts.h"
+	"opengl.h"
+	"openal.h"
+	"geom.h"
+	"world.h"
+	"draw.h"
+	"utils.h"
+	"crc32.h"
+	"random.h"
+	"texture.h"
+	"ase_importer.h"
+	"bounding_boxes.h"
+	"sound.h"
+	"music.h"
+	"explosion.h"
+	"resources.h"
+
+1287525171 e:\giacomo\progetti\c\minecrisis\src\consts.h
+
+1286206032 e:\giacomo\progetti\c\minecrisis\src\openal.h
+	<AL/al.h>
+	<AL/alc.h>
+	<OpenAL/al.h>
+	<OpenAL/alc.h>
+
+1287100801 e:\giacomo\progetti\c\minecrisis\src\sound.h
+	<float.h>
+	"geom.h"
+	"openal.h"
+
+1287063470 e:\giacomo\progetti\c\minecrisis\src\music.h
+	<pthread.h>
+	<ogg/ogg.h>
+	<vorbis/codec.h>
+	<vorbis/vorbisenc.h>
+	<vorbis/vorbisfile.h>
+	"utils.h"
+
+1287237516 e:\giacomo\progetti\c\minecrisis\src\resources.h
+
+1287059427 source:e:\giacomo\progetti\c\minecrisis\src\music.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"utils.h"
+	"openal.h"
+	"sound.h"
+	"music.h"
+
+1286203240 source:e:\giacomo\progetti\c\minecrisis\src\random.c
+	<stdlib.h>
+	<time.h>
+	"random.h"
+
+1287237479 source:e:\giacomo\progetti\c\minecrisis\src\resources.c
+	"resources.h"
+
+1286920108 source:e:\giacomo\progetti\c\minecrisis\src\sound.c
+	"sound.h"
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"utils.h"
+
+1287237206 source:e:\giacomo\progetti\c\minecrisis\src\texture.c
+	<stdlib.h>
+	<stdbool.h>
+	<stdio.h>
+	<string.h>
+	<png.h>
+	"texture.h"
+	"utils.h"
+
+1287063613 source:e:\giacomo\progetti\c\minecrisis\src\utils.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<stdarg.h>
+	<float.h>
+	"utils.h"
+	<sys/time.h>
+	<windows.h>
+
+1285844324 source:e:\giacomo\progetti\c\minecrisis\src\world.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"world.h"
+
+1285953678 source:/mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/ase_importer.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<float.h>
+	"opengl.h"
+	"ase_importer.h"
+
+1286200882 /mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/opengl.h
+	<GL/gl.h>
+	<GL/glut.h>
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+
+1286203672 /mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/ase_importer.h
+	<stdbool.h>
+	"bounding_boxes.h"
+
+1286203034 /mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/bounding_boxes.h
+	<stdbool.h>
+
+1286203060 source:/mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/bounding_boxes.c
+	<stdlib.h>
+	<stdio.h>
+	"bounding_boxes.h"
+
+1286574070 source:/mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/crc32.c
+	"crc32.h"
+	<stdio.h>
+
+1286574065 /mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/crc32.h
+	<stdint.h>
+
+1286488112 source:/mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/draw.c
+	<string.h>
+	"texture.h"
+	"draw.h"
+
+1286608784 /mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/texture.h
+	"opengl.h"
+
+1286625417 /mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/draw.h
+	<stdbool.h>
+	"opengl.h"
+	"world.h"
+	"ase_importer.h"
+	"bounding_boxes.h"
+	"texture.h"
+	"explosion.h"
+
+1287062599 /mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/world.h
+	"utils.h"
+	"geom.h"
+
+1287063567 /mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/utils.h
+	<stdbool.h>
+	"crc32.h"
+
+1286203000 /mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/geom.h
+	<stdbool.h>
+	"bounding_boxes.h"
+
+1286133654 /mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/explosion.h
+	"geom.h"
+	"utils.h"
+
+1286204832 source:/mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/explosion.c
+	<stdlib.h>
+	<stdbool.h>
+	<math.h>
+	<string.h>
+	"opengl.h"
+	"explosion.h"
+	"random.h"
+
+1286203220 /mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/random.h
+
+1285617980 source:/mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/geom.c
+	<stdlib.h>
+	<math.h>
+	"geom.h"
+
+1287236092 source:/mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/mine_crisis.c
+	"mine_crisis.h"
+
+1287100806 /mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/mine_crisis.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+	<math.h>
+	"consts.h"
+	"opengl.h"
+	"openal.h"
+	"geom.h"
+	"world.h"
+	"draw.h"
+	"utils.h"
+	"crc32.h"
+	"random.h"
+	"texture.h"
+	"ase_importer.h"
+	"bounding_boxes.h"
+	"sound.h"
+	"music.h"
+	"explosion.h"
+	"resources.h"
+
+1287236387 /mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/consts.h
+
+1286206032 /mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/openal.h
+	<AL/al.h>
+	<AL/alc.h>
+	<OpenAL/al.h>
+	<OpenAL/alc.h>
+
+1287100801 /mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/sound.h
+	<float.h>
+	"geom.h"
+	"openal.h"
+
+1287063470 /mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/music.h
+	<pthread.h>
+	<ogg/ogg.h>
+	<vorbis/codec.h>
+	<vorbis/vorbisenc.h>
+	<vorbis/vorbisfile.h>
+	"utils.h"
+
+1287059207 /mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/resources.h
+
+1287059427 source:/mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/music.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"utils.h"
+	"openal.h"
+	"sound.h"
+	"music.h"
+
+1286203240 source:/mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/random.c
+	<stdlib.h>
+	<time.h>
+	"random.h"
+
+1287059174 source:/mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/resources.c
+	"resources.h"
+
+1286920108 source:/mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/sound.c
+	"sound.h"
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"utils.h"
+
+1287237158 source:/mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/texture.c
+	<stdlib.h>
+	<stdbool.h>
+	<stdio.h>
+	<string.h>
+	<png.h>
+	"texture.h"
+	"utils.h"
+
+1287063613 source:/mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/utils.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<stdarg.h>
+	<float.h>
+	"utils.h"
+	<sys/time.h>
+	<windows.h>
+
+1285844324 source:/mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/world.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"world.h"
+
+1285953678 source:/mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/ase_importer.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<float.h>
+	"opengl.h"
+	"ase_importer.h"
+
+1286200882 /mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/opengl.h
+	<GL/gl.h>
+	<GL/glut.h>
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+
+1286203672 /mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/ase_importer.h
+	<stdbool.h>
+	"bounding_boxes.h"
+
+1286203034 /mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/bounding_boxes.h
+	<stdbool.h>
+
+1286203060 source:/mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/bounding_boxes.c
+	<stdlib.h>
+	<stdio.h>
+	"bounding_boxes.h"
+
+1286574070 source:/mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/crc32.c
+	"crc32.h"
+	<stdio.h>
+
+1286574065 /mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/crc32.h
+	<stdint.h>
+
+1286488112 source:/mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/draw.c
+	<string.h>
+	"texture.h"
+	"draw.h"
+
+1286608784 /mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/texture.h
+	"opengl.h"
+
+1286625417 /mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/draw.h
+	<stdbool.h>
+	"opengl.h"
+	"world.h"
+	"ase_importer.h"
+	"bounding_boxes.h"
+	"texture.h"
+	"explosion.h"
+
+1287062599 /mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/world.h
+	"utils.h"
+	"geom.h"
+
+1287063567 /mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/utils.h
+	<stdbool.h>
+	"crc32.h"
+
+1286203000 /mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/geom.h
+	<stdbool.h>
+	"bounding_boxes.h"
+
+1286133654 /mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/explosion.h
+	"geom.h"
+	"utils.h"
+
+1286204832 source:/mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/explosion.c
+	<stdlib.h>
+	<stdbool.h>
+	<math.h>
+	<string.h>
+	"opengl.h"
+	"explosion.h"
+	"random.h"
+
+1286203220 /mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/random.h
+
+1285617980 source:/mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/geom.c
+	<stdlib.h>
+	<math.h>
+	"geom.h"
+
+1287525745 source:/mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/mine_crisis.c
+	"mine_crisis.h"
+
+1288128449 /mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/mine_crisis.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+	<math.h>
+	"consts.h"
+	"opengl.h"
+	"openal.h"
+	"geom.h"
+	"world.h"
+	"draw.h"
+	"utils.h"
+	"crc32.h"
+	"random.h"
+	"texture.h"
+	"ase_importer.h"
+	"bounding_boxes.h"
+	"sound.h"
+	"music.h"
+	"explosion.h"
+	"resources.h"
+
+1287525545 /mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/sleep.h
+
+1288128510 /mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/consts.h
+
+1286206032 /mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/openal.h
+	<AL/al.h>
+	<AL/alc.h>
+	<OpenAL/al.h>
+	<OpenAL/alc.h>
+
+1287100801 /mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/sound.h
+	<float.h>
+	"geom.h"
+	"openal.h"
+
+1288128469 /mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/music.h
+	<pthread.h>
+	<ogg/ogg.h>
+	<vorbis/codec.h>
+	<vorbis/vorbisenc.h>
+	<vorbis/vorbisfile.h>
+	"utils.h"
+
+1287237516 /mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/resources.h
+
+1287059427 source:/mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/music.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"utils.h"
+	"openal.h"
+	"sound.h"
+	"music.h"
+
+1286203240 source:/mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/random.c
+	<stdlib.h>
+	<time.h>
+	"random.h"
+
+1287237479 source:/mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/resources.c
+	"resources.h"
+
+1286920108 source:/mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/sound.c
+	"sound.h"
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"utils.h"
+
+1287237206 source:/mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/texture.c
+	<stdlib.h>
+	<stdbool.h>
+	<stdio.h>
+	<string.h>
+	<png.h>
+	"texture.h"
+	"utils.h"
+
+1287063613 source:/mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/utils.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<stdarg.h>
+	<float.h>
+	"utils.h"
+	<sys/time.h>
+	<windows.h>
+
+1285844324 source:/mnt/DATI/Giacomo/Progetti/C/MineCrisis/src/world.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"world.h"
+
