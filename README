@@ -83,3 +83,4 @@ ON-SCREEN INDICATORS
 3. Afterburner (turbo) "fuel" indicator
      afterburner "fuel" gets consumed when the afterburner is engaged
      and slowly recharges when it's idle.
+
