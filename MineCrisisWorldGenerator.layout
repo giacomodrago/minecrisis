@@ -1,31 +1,37 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <CodeBlocks_layout_file>
-	<ActiveTarget name="Release (64 bit)" />
-	<File name="src/geom.c" open="1" top="0" tabpos="2">
+	<ActiveTarget name="Release (32 bit)" />
+	<File name="src\crc32.c" open="1" top="0" tabpos="0">
 		<Cursor position="0" topLine="0" />
 	</File>
-	<File name="src/geom.h" open="0" top="0" tabpos="4">
-		<Cursor position="2327" topLine="0" />
-	</File>
-	<File name="src/random.c" open="0" top="0" tabpos="3">
+	<File name="src\crc32.h" open="1" top="0" tabpos="1">
 		<Cursor position="0" topLine="0" />
 	</File>
-	<File name="src/random.h" open="1" top="0" tabpos="1">
+	<File name="src\geom.c" open="1" top="0" tabpos="2">
+		<Cursor position="455" topLine="0" />
+	</File>
+	<File name="src\geom.h" open="1" top="0" tabpos="5">
+		<Cursor position="1001" topLine="60" />
+	</File>
+	<File name="src\random.c" open="1" top="0" tabpos="3">
 		<Cursor position="0" topLine="0" />
 	</File>
-	<File name="src/utils.c" open="0" top="0" tabpos="2">
+	<File name="src\random.h" open="1" top="0" tabpos="1">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="src\utils.c" open="1" top="0" tabpos="3">
 		<Cursor position="338" topLine="98" />
 	</File>
-	<File name="src/utils.h" open="0" top="0" tabpos="3">
+	<File name="src\utils.h" open="1" top="0" tabpos="3">
 		<Cursor position="148" topLine="0" />
 	</File>
-	<File name="src/world.c" open="0" top="0" tabpos="3">
+	<File name="src\world.c" open="1" top="0" tabpos="4">
 		<Cursor position="3786" topLine="157" />
 	</File>
-	<File name="src/world.h" open="1" top="0" tabpos="1">
+	<File name="src\world.h" open="1" top="0" tabpos="2">
 		<Cursor position="70" topLine="0" />
 	</File>
-	<File name="src/world_gen.c" open="0" top="0" tabpos="0">
-		<Cursor position="4556" topLine="126" />
+	<File name="src\world_gen.c" open="0" top="0" tabpos="0">
+		<Cursor position="32" topLine="0" />
 	</File>
 </CodeBlocks_layout_file>

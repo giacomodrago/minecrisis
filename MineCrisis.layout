@@ -1,94 +1,88 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <CodeBlocks_layout_file>
-	<ActiveTarget name="Linux (Release 64 bit)" />
-	<File name="src/ase_importer.h" open="0" top="0" tabpos="0">
-		<Cursor position="1616" topLine="4" />
+	<ActiveTarget name="Windows (Release 32 bit)" />
+	<File name="src\ase_importer.c" open="0" top="0" tabpos="0">
+		<Cursor position="754" topLine="0" />
 	</File>
-	<File name="src/bounding_boxes.c" open="0" top="0" tabpos="6">
-		<Cursor position="1305" topLine="0" />
+	<File name="src\ase_importer.h" open="0" top="0" tabpos="0">
+		<Cursor position="752" topLine="0" />
 	</File>
-	<File name="src/bounding_boxes.h" open="0" top="0" tabpos="4">
-		<Cursor position="397" topLine="0" />
+	<File name="src\bounding_boxes.c" open="0" top="0" tabpos="6">
+		<Cursor position="754" topLine="0" />
 	</File>
-	<File name="src/consts.h" open="1" top="0" tabpos="3">
-		<Cursor position="632" topLine="0" />
+	<File name="src\bounding_boxes.h" open="0" top="0" tabpos="4">
+		<Cursor position="754" topLine="0" />
 	</File>
-	<File name="src/crc32.c" open="0" top="0" tabpos="10">
+	<File name="src\consts.h" open="1" top="1" tabpos="2">
+		<Cursor position="925" topLine="0" />
+	</File>
+	<File name="src\crc32.c" open="0" top="0" tabpos="10">
 		<Cursor position="4146" topLine="0" />
 	</File>
-	<File name="src/crc32.h" open="0" top="0" tabpos="9">
-		<Cursor position="79" topLine="0" />
+	<File name="src\crc32.h" open="0" top="0" tabpos="9">
+		<Cursor position="914" topLine="0" />
 	</File>
-	<File name="src/draw.c" open="0" top="0" tabpos="5">
-		<Cursor position="2121" topLine="57" />
+	<File name="src\draw.c" open="0" top="0" tabpos="5">
+		<Cursor position="754" topLine="0" />
 	</File>
-	<File name="src/draw.h" open="0" top="0" tabpos="4">
-		<Cursor position="1616" topLine="46" />
+	<File name="src\draw.h" open="0" top="0" tabpos="4">
+		<Cursor position="754" topLine="0" />
 	</File>
-	<File name="src/explosion.c" open="0" top="0" tabpos="5">
-		<Cursor position="0" topLine="0" />
+	<File name="src\explosion.c" open="0" top="0" tabpos="5">
+		<Cursor position="754" topLine="75" />
 	</File>
-	<File name="src/explosion.h" open="0" top="0" tabpos="6">
-		<Cursor position="1261" topLine="19" />
+	<File name="src\explosion.h" open="0" top="0" tabpos="6">
+		<Cursor position="754" topLine="0" />
 	</File>
-	<File name="src/geom.c" open="0" top="0" tabpos="0">
-		<Cursor position="9918" topLine="329" />
+	<File name="src\geom.h" open="0" top="0" tabpos="0">
+		<Cursor position="2" topLine="0" />
 	</File>
-	<File name="src/geom.h" open="0" top="0" tabpos="0">
-		<Cursor position="447" topLine="45" />
+	<File name="src\mine_crisis.c" open="1" top="0" tabpos="1">
+		<Cursor position="85290" topLine="2245" />
 	</File>
-	<File name="src/mine_crisis.c" open="1" top="1" tabpos="1">
-		<Cursor position="3102" topLine="68" />
+	<File name="src\mine_crisis.h" open="0" top="0" tabpos="2">
+		<Cursor position="754" topLine="45" />
 	</File>
-	<File name="src/mine_crisis.h" open="1" top="0" tabpos="2">
-		<Cursor position="144" topLine="9" />
+	<File name="src\music.c" open="0" top="0" tabpos="5">
+		<Cursor position="754" topLine="0" />
 	</File>
-	<File name="src/music.c" open="1" top="0" tabpos="5">
-		<Cursor position="790" topLine="6" />
+	<File name="src\music.h" open="0" top="0" tabpos="6">
+		<Cursor position="754" topLine="0" />
 	</File>
-	<File name="src/music.h" open="1" top="0" tabpos="6">
-		<Cursor position="236" topLine="0" />
+	<File name="src\openal.h" open="0" top="0" tabpos="7">
+		<Cursor position="752" topLine="0" />
 	</File>
-	<File name="src/openal.h" open="0" top="0" tabpos="7">
-		<Cursor position="53" topLine="0" />
+	<File name="src\opengl.h" open="0" top="0" tabpos="6">
+		<Cursor position="752" topLine="0" />
 	</File>
-	<File name="src/opengl.h" open="0" top="0" tabpos="6">
-		<Cursor position="53" topLine="0" />
-	</File>
-	<File name="src/random.c" open="0" top="0" tabpos="0">
+	<File name="src\random.c" open="0" top="0" tabpos="0">
 		<Cursor position="397" topLine="0" />
 	</File>
-	<File name="src/random.h" open="0" top="0" tabpos="0">
-		<Cursor position="135" topLine="0" />
+	<File name="src\random.h" open="0" top="0" tabpos="0">
+		<Cursor position="909" topLine="0" />
 	</File>
-	<File name="src/resources.c" open="0" top="0" tabpos="4">
-		<Cursor position="648" topLine="0" />
+	<File name="src\resources.c" open="0" top="0" tabpos="4">
+		<Cursor position="754" topLine="0" />
 	</File>
-	<File name="src/resources.h" open="0" top="0" tabpos="5">
-		<Cursor position="187" topLine="0" />
+	<File name="src\resources.h" open="0" top="0" tabpos="5">
+		<Cursor position="754" topLine="0" />
 	</File>
-	<File name="src/sound.c" open="1" top="0" tabpos="4">
-		<Cursor position="263" topLine="39" />
+	<File name="src\sound.c" open="0" top="0" tabpos="4">
+		<Cursor position="754" topLine="0" />
 	</File>
-	<File name="src/sound.h" open="0" top="0" tabpos="5">
-		<Cursor position="52" topLine="0" />
+	<File name="src\sound.h" open="0" top="0" tabpos="5">
+		<Cursor position="754" topLine="9" />
 	</File>
-	<File name="src/texture.c" open="0" top="0" tabpos="9">
-		<Cursor position="7751" topLine="87" />
+	<File name="src\texture.c" open="0" top="0" tabpos="9">
+		<Cursor position="754" topLine="0" />
 	</File>
-	<File name="src/texture.h" open="0" top="0" tabpos="8">
-		<Cursor position="404" topLine="0" />
+	<File name="src\texture.h" open="0" top="0" tabpos="8">
+		<Cursor position="752" topLine="0" />
 	</File>
-	<File name="src/utils.c" open="0" top="0" tabpos="0">
-		<Cursor position="2887" topLine="97" />
-	</File>
-	<File name="src/utils.h" open="0" top="0" tabpos="0">
+	<File name="src\utils.h" open="0" top="0" tabpos="0">
 		<Cursor position="133" topLine="0" />
 	</File>
-	<File name="src/world.c" open="0" top="0" tabpos="0">
-		<Cursor position="2978" topLine="82" />
-	</File>
-	<File name="src/world.h" open="0" top="0" tabpos="0">
-		<Cursor position="478" topLine="2" />
+	<File name="src\world.h" open="0" top="0" tabpos="0">
+		<Cursor position="823" topLine="0" />
 	</File>
 </CodeBlocks_layout_file>

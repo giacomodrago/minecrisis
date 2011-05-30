@@ -1,3 +1,23 @@
+/*
+ * MineCrisis
+ * Copyright (C) 2010-2011 Giacomo Drago
+ * http://giacomodrago.com/go/minecrisis
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ */
+
 #ifndef CONSTS_H
 #define CONSTS_H
 
@@ -26,6 +46,10 @@
 
 #define WORLD_FILE "./worlds/world.txt"
 
+/*
+
+// Disabled as of version 0.92
+
 #define COPYRIGHT_FILE "COPYRIGHT.TXT"
     #define COPYRIGHT_FILE_CHECKSUM 3544333434
 
@@ -34,6 +58,8 @@
 
 #define README_FILE "README.TXT"
     #define README_FILE_CHECKSUM 3285314056
+
+*/
 
 #define PLANET_TEXTURE_FILE "./data/planet.png"
     #define PLANET_TEXTURE_FILE_CHECKSUM 1907437650

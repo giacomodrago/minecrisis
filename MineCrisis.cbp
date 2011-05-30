@@ -8,8 +8,8 @@
 		<Build>
 			<Target title="Linux (Release 64 bit)">
 				<Option platforms="Unix;" />
-				<Option output="./bin/MineCrisis64" prefix_auto="1" extension_auto="1" />
-				<Option object_output="obj/" />
+				<Option output=".\bin\MineCrisis64" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\" />
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Option parameters='&quot;./worlds/world.txt&quot;' />
@@ -24,8 +24,8 @@
 			</Target>
 			<Target title="Linux (Debug 64 bit)">
 				<Option platforms="Unix;" />
-				<Option output="./bin/MineCrisis64_debug" prefix_auto="1" extension_auto="1" />
-				<Option object_output="obj/" />
+				<Option output=".\bin\MineCrisis64_debug" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\" />
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Option parameters='&quot;./worlds/world.txt&quot;' />
@@ -39,8 +39,8 @@
 			</Target>
 			<Target title="Linux (Release 32 bit)">
 				<Option platforms="Unix;" />
-				<Option output="./bin/MineCrisis32" prefix_auto="1" extension_auto="1" />
-				<Option object_output="obj/" />
+				<Option output=".\bin\MineCrisis32" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\" />
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Option parameters='&quot;./worlds/world.txt&quot;' />
@@ -55,8 +55,8 @@
 			</Target>
 			<Target title="Windows (Release 32 bit)">
 				<Option platforms="Windows;" />
-				<Option output="./bin/MineCrisis32" prefix_auto="1" extension_auto="1" />
-				<Option object_output="obj/" />
+				<Option output=".\bin\MineCrisis32" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\" />
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Option parameters='&quot;./worlds/world.txt&quot;' />
@@ -87,66 +87,66 @@
 			<Add library="vorbis" />
 			<Add library="ogg" />
 		</Linker>
-		<Unit filename="src/ase_importer.c">
+		<Unit filename="src\ase_importer.c">
 			<Option compilerVar="CC" />
 			<Option compiler="gcc" use="1" buildCommand="$compiler $options -w $includes -c $file -o $object" />
 		</Unit>
-		<Unit filename="src/ase_importer.h" />
-		<Unit filename="src/bounding_boxes.c">
+		<Unit filename="src\ase_importer.h" />
+		<Unit filename="src\bounding_boxes.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="src/bounding_boxes.h" />
-		<Unit filename="src/consts.h" />
-		<Unit filename="src/crc32.c">
+		<Unit filename="src\bounding_boxes.h" />
+		<Unit filename="src\consts.h" />
+		<Unit filename="src\crc32.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="src/crc32.h" />
-		<Unit filename="src/draw.c">
+		<Unit filename="src\crc32.h" />
+		<Unit filename="src\draw.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="src/draw.h" />
-		<Unit filename="src/explosion.c">
+		<Unit filename="src\draw.h" />
+		<Unit filename="src\explosion.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="src/explosion.h" />
-		<Unit filename="src/geom.c">
+		<Unit filename="src\explosion.h" />
+		<Unit filename="src\geom.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="src/geom.h" />
-		<Unit filename="src/mine_crisis.c">
+		<Unit filename="src\geom.h" />
+		<Unit filename="src\mine_crisis.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="src/mine_crisis.h" />
-		<Unit filename="src/music.c">
+		<Unit filename="src\mine_crisis.h" />
+		<Unit filename="src\music.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="src/music.h" />
-		<Unit filename="src/openal.h" />
-		<Unit filename="src/opengl.h" />
-		<Unit filename="src/random.c">
+		<Unit filename="src\music.h" />
+		<Unit filename="src\openal.h" />
+		<Unit filename="src\opengl.h" />
+		<Unit filename="src\random.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="src/random.h" />
-		<Unit filename="src/resources.c">
+		<Unit filename="src\random.h" />
+		<Unit filename="src\resources.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="src/resources.h" />
-		<Unit filename="src/sound.c">
+		<Unit filename="src\resources.h" />
+		<Unit filename="src\sound.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="src/sound.h" />
-		<Unit filename="src/texture.c">
+		<Unit filename="src\sound.h" />
+		<Unit filename="src\texture.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="src/texture.h" />
-		<Unit filename="src/utils.c">
+		<Unit filename="src\texture.h" />
+		<Unit filename="src\utils.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="src/utils.h" />
-		<Unit filename="src/world.c">
+		<Unit filename="src\utils.h" />
+		<Unit filename="src\world.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="src/world.h" />
+		<Unit filename="src\world.h" />
 		<Extensions>
 			<code_completion />
 			<debugger />

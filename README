@@ -1,5 +1,5 @@
 *****************************
-*** MineCrisis v0.91 beta ***
+*** MineCrisis v0.92 beta ***
 *****************************
 
 (c)2010 Giacomo Drago. All rights reserved.
@@ -26,6 +26,13 @@ mines and the shots of the automatic turrets.
 
 NEWS / CHANGELOG
 
+
+2011-05-30        Version 0.92 beta relased: fixed distribution integrity check,
+                  that was causing errors in pre-compiled packages.
+                  No longer making pre-compiled packages for Linux (source available).
+2011-05-23        Released the source under GPLv3 license. EULA license discarded.
+                  Feel free to improve the game editing the code, but please respect
+                  GPLv3 license publishing your code.
 2010-10-16        Version 0.91 beta released: fixed some minor issues,
                   added more info in the README, published builds for Linux
 2010-10-14        Version 0.9 beta released
