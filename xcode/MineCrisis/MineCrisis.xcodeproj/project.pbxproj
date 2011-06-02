@@ -21,32 +21,32 @@
 		7D1C0D4B1397913200787990 /* texture.c in Sources */ = {isa = PBXBuildFile; fileRef = 7D1C0D391397913200787990 /* texture.c */; };
 		7D1C0D4C1397913200787990 /* utils.c in Sources */ = {isa = PBXBuildFile; fileRef = 7D1C0D3B1397913200787990 /* utils.c */; };
 		7D1C0D4E1397913200787990 /* world.c in Sources */ = {isa = PBXBuildFile; fileRef = 7D1C0D3E1397913200787990 /* world.c */; };
-		7D2045601397CB8700998905 /* afterburner.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D2045471397CB8700998905 /* afterburner.png */; };
-		7D2045611397CB8700998905 /* alarm.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7D2045481397CB8700998905 /* alarm.wav */; };
-		7D2045621397CB8700998905 /* beep.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7D2045491397CB8700998905 /* beep.wav */; };
-		7D2045631397CB8700998905 /* checkpoint.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7D20454A1397CB8700998905 /* checkpoint.wav */; };
-		7D2045641397CB8700998905 /* gameover_lose.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D20454B1397CB8700998905 /* gameover_lose.png */; };
-		7D2045651397CB8700998905 /* gameover_lose.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7D20454C1397CB8700998905 /* gameover_lose.wav */; };
-		7D2045661397CB8700998905 /* gameover_lose_timeout.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D20454D1397CB8700998905 /* gameover_lose_timeout.png */; };
-		7D2045671397CB8700998905 /* gameover_win.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D20454E1397CB8700998905 /* gameover_win.png */; };
-		7D2045681397CB8700998905 /* gameover_win.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7D20454F1397CB8700998905 /* gameover_win.wav */; };
-		7D2045691397CB8700998905 /* invisibility.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D2045501397CB8700998905 /* invisibility.png */; };
-		7D20456A1397CB8700998905 /* mine.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7D2045511397CB8700998905 /* mine.wav */; };
-		7D20456B1397CB8700998905 /* music.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 7D2045521397CB8700998905 /* music.ogg */; };
-		7D20456C1397CB8700998905 /* numbers.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D2045531397CB8700998905 /* numbers.png */; };
-		7D20456D1397CB8700998905 /* numbers.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7D2045541397CB8700998905 /* numbers.txt */; };
-		7D20456E1397CB8700998905 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D2045551397CB8700998905 /* pause.png */; };
-		7D20456F1397CB8700998905 /* planet.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D2045561397CB8700998905 /* planet.png */; };
-		7D2045701397CB8700998905 /* play_again.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D2045571397CB8700998905 /* play_again.png */; };
-		7D2045711397CB8700998905 /* remaining_checkpoints.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D2045581397CB8700998905 /* remaining_checkpoints.png */; };
-		7D2045721397CB8700998905 /* remaining_time.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D2045591397CB8700998905 /* remaining_time.png */; };
-		7D2045731397CB8700998905 /* shield.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D20455A1397CB8700998905 /* shield.png */; };
-		7D2045741397CB8700998905 /* shield.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7D20455B1397CB8700998905 /* shield.wav */; };
-		7D2045751397CB8700998905 /* ship.ase in Resources */ = {isa = PBXBuildFile; fileRef = 7D20455C1397CB8700998905 /* ship.ase */; };
-		7D2045761397CB8700998905 /* ship.bounds in Resources */ = {isa = PBXBuildFile; fileRef = 7D20455D1397CB8700998905 /* ship.bounds */; };
-		7D2045771397CB8700998905 /* shot.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7D20455E1397CB8700998905 /* shot.wav */; };
-		7D2045781397CB8700998905 /* starmap.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D20455F1397CB8700998905 /* starmap.png */; };
-		7D20457B1397CB8C00998905 /* world.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7D20457A1397CB8C00998905 /* world.txt */; };
+		7D38EDEA1397FDAD00E30D7C /* afterburner.png in Copy Game data files */ = {isa = PBXBuildFile; fileRef = 7D2045471397CB8700998905 /* afterburner.png */; };
+		7D38EDEB1397FDC300E30D7C /* alarm.wav in Copy Game data files */ = {isa = PBXBuildFile; fileRef = 7D2045481397CB8700998905 /* alarm.wav */; };
+		7D38EDEC1397FDC300E30D7C /* beep.wav in Copy Game data files */ = {isa = PBXBuildFile; fileRef = 7D2045491397CB8700998905 /* beep.wav */; };
+		7D38EDED1397FDC300E30D7C /* checkpoint.wav in Copy Game data files */ = {isa = PBXBuildFile; fileRef = 7D20454A1397CB8700998905 /* checkpoint.wav */; };
+		7D38EDEE1397FDC300E30D7C /* gameover_lose.png in Copy Game data files */ = {isa = PBXBuildFile; fileRef = 7D20454B1397CB8700998905 /* gameover_lose.png */; };
+		7D38EDEF1397FDC300E30D7C /* gameover_lose.wav in Copy Game data files */ = {isa = PBXBuildFile; fileRef = 7D20454C1397CB8700998905 /* gameover_lose.wav */; };
+		7D38EDF01397FDC300E30D7C /* gameover_lose_timeout.png in Copy Game data files */ = {isa = PBXBuildFile; fileRef = 7D20454D1397CB8700998905 /* gameover_lose_timeout.png */; };
+		7D38EDF11397FDC300E30D7C /* gameover_win.png in Copy Game data files */ = {isa = PBXBuildFile; fileRef = 7D20454E1397CB8700998905 /* gameover_win.png */; };
+		7D38EDF21397FDC300E30D7C /* gameover_win.wav in Copy Game data files */ = {isa = PBXBuildFile; fileRef = 7D20454F1397CB8700998905 /* gameover_win.wav */; };
+		7D38EDF31397FDC300E30D7C /* invisibility.png in Copy Game data files */ = {isa = PBXBuildFile; fileRef = 7D2045501397CB8700998905 /* invisibility.png */; };
+		7D38EDF41397FDC300E30D7C /* mine.wav in Copy Game data files */ = {isa = PBXBuildFile; fileRef = 7D2045511397CB8700998905 /* mine.wav */; };
+		7D38EDF51397FDC300E30D7C /* music.ogg in Copy Game data files */ = {isa = PBXBuildFile; fileRef = 7D2045521397CB8700998905 /* music.ogg */; };
+		7D38EDF61397FDC300E30D7C /* numbers.png in Copy Game data files */ = {isa = PBXBuildFile; fileRef = 7D2045531397CB8700998905 /* numbers.png */; };
+		7D38EDF71397FDC300E30D7C /* numbers.txt in Copy Game data files */ = {isa = PBXBuildFile; fileRef = 7D2045541397CB8700998905 /* numbers.txt */; };
+		7D38EDF81397FDC300E30D7C /* pause.png in Copy Game data files */ = {isa = PBXBuildFile; fileRef = 7D2045551397CB8700998905 /* pause.png */; };
+		7D38EDF91397FDC300E30D7C /* planet.png in Copy Game data files */ = {isa = PBXBuildFile; fileRef = 7D2045561397CB8700998905 /* planet.png */; };
+		7D38EDFA1397FDC300E30D7C /* play_again.png in Copy Game data files */ = {isa = PBXBuildFile; fileRef = 7D2045571397CB8700998905 /* play_again.png */; };
+		7D38EDFB1397FDC300E30D7C /* remaining_checkpoints.png in Copy Game data files */ = {isa = PBXBuildFile; fileRef = 7D2045581397CB8700998905 /* remaining_checkpoints.png */; };
+		7D38EDFC1397FDC300E30D7C /* remaining_time.png in Copy Game data files */ = {isa = PBXBuildFile; fileRef = 7D2045591397CB8700998905 /* remaining_time.png */; };
+		7D38EDFD1397FDC300E30D7C /* shield.png in Copy Game data files */ = {isa = PBXBuildFile; fileRef = 7D20455A1397CB8700998905 /* shield.png */; };
+		7D38EDFE1397FDC300E30D7C /* shield.wav in Copy Game data files */ = {isa = PBXBuildFile; fileRef = 7D20455B1397CB8700998905 /* shield.wav */; };
+		7D38EDFF1397FDC300E30D7C /* ship.ase in Copy Game data files */ = {isa = PBXBuildFile; fileRef = 7D20455C1397CB8700998905 /* ship.ase */; };
+		7D38EE001397FDC300E30D7C /* ship.bounds in Copy Game data files */ = {isa = PBXBuildFile; fileRef = 7D20455D1397CB8700998905 /* ship.bounds */; };
+		7D38EE011397FDC300E30D7C /* shot.wav in Copy Game data files */ = {isa = PBXBuildFile; fileRef = 7D20455E1397CB8700998905 /* shot.wav */; };
+		7D38EE021397FDC300E30D7C /* starmap.png in Copy Game data files */ = {isa = PBXBuildFile; fileRef = 7D20455F1397CB8700998905 /* starmap.png */; };
+		7D38EE041397FDEA00E30D7C /* world.txt in Copy Game world file(s) */ = {isa = PBXBuildFile; fileRef = 7D20457A1397CB8C00998905 /* world.txt */; };
 		7D3CD08F1397A8720016F230 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D3CD08E1397A8720016F230 /* OpenGL.framework */; };
 		7D3CD0911397A8770016F230 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D3CD0901397A8770016F230 /* OpenAL.framework */; };
 		7D3CD0931397A87C0016F230 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D3CD0921397A87C0016F230 /* GLUT.framework */; };
@@ -59,6 +59,52 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		7D38EDE81397FD8B00E30D7C /* Copy Game data files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = data;
+			dstSubfolderSpec = 7;
+			files = (
+				7D38EDEB1397FDC300E30D7C /* alarm.wav in Copy Game data files */,
+				7D38EDEC1397FDC300E30D7C /* beep.wav in Copy Game data files */,
+				7D38EDED1397FDC300E30D7C /* checkpoint.wav in Copy Game data files */,
+				7D38EDEE1397FDC300E30D7C /* gameover_lose.png in Copy Game data files */,
+				7D38EDEF1397FDC300E30D7C /* gameover_lose.wav in Copy Game data files */,
+				7D38EDF01397FDC300E30D7C /* gameover_lose_timeout.png in Copy Game data files */,
+				7D38EDF11397FDC300E30D7C /* gameover_win.png in Copy Game data files */,
+				7D38EDF21397FDC300E30D7C /* gameover_win.wav in Copy Game data files */,
+				7D38EDF31397FDC300E30D7C /* invisibility.png in Copy Game data files */,
+				7D38EDF41397FDC300E30D7C /* mine.wav in Copy Game data files */,
+				7D38EDF51397FDC300E30D7C /* music.ogg in Copy Game data files */,
+				7D38EDF61397FDC300E30D7C /* numbers.png in Copy Game data files */,
+				7D38EDF71397FDC300E30D7C /* numbers.txt in Copy Game data files */,
+				7D38EDF81397FDC300E30D7C /* pause.png in Copy Game data files */,
+				7D38EDF91397FDC300E30D7C /* planet.png in Copy Game data files */,
+				7D38EDFA1397FDC300E30D7C /* play_again.png in Copy Game data files */,
+				7D38EDFB1397FDC300E30D7C /* remaining_checkpoints.png in Copy Game data files */,
+				7D38EDFC1397FDC300E30D7C /* remaining_time.png in Copy Game data files */,
+				7D38EDFD1397FDC300E30D7C /* shield.png in Copy Game data files */,
+				7D38EDFE1397FDC300E30D7C /* shield.wav in Copy Game data files */,
+				7D38EDFF1397FDC300E30D7C /* ship.ase in Copy Game data files */,
+				7D38EE001397FDC300E30D7C /* ship.bounds in Copy Game data files */,
+				7D38EE011397FDC300E30D7C /* shot.wav in Copy Game data files */,
+				7D38EE021397FDC300E30D7C /* starmap.png in Copy Game data files */,
+				7D38EDEA1397FDAD00E30D7C /* afterburner.png in Copy Game data files */,
+			);
+			name = "Copy Game data files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D38EE031397FDD700E30D7C /* Copy Game world file(s) */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = worlds;
+			dstSubfolderSpec = 7;
+			files = (
+				7D38EE041397FDEA00E30D7C /* world.txt in Copy Game world file(s) */,
+			);
+			name = "Copy Game world file(s)";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7D3CD09E1397A90E0016F230 /* Copy Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -290,8 +336,9 @@
 			buildPhases = (
 				7D1C0CFD13978FFD00787990 /* Sources */,
 				7D1C0CFE13978FFD00787990 /* Frameworks */,
-				7D1C0CFF13978FFD00787990 /* Resources */,
 				7D3CD09E1397A90E0016F230 /* Copy Frameworks */,
+				7D38EDE81397FD8B00E30D7C /* Copy Game data files */,
+				7D38EE031397FDD700E30D7C /* Copy Game world file(s) */,
 			);
 			buildRules = (
 			);
@@ -323,42 +370,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		7D1C0CFF13978FFD00787990 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7D2045601397CB8700998905 /* afterburner.png in Resources */,
-				7D2045611397CB8700998905 /* alarm.wav in Resources */,
-				7D2045621397CB8700998905 /* beep.wav in Resources */,
-				7D2045631397CB8700998905 /* checkpoint.wav in Resources */,
-				7D2045641397CB8700998905 /* gameover_lose.png in Resources */,
-				7D2045651397CB8700998905 /* gameover_lose.wav in Resources */,
-				7D2045661397CB8700998905 /* gameover_lose_timeout.png in Resources */,
-				7D2045671397CB8700998905 /* gameover_win.png in Resources */,
-				7D2045681397CB8700998905 /* gameover_win.wav in Resources */,
-				7D2045691397CB8700998905 /* invisibility.png in Resources */,
-				7D20456A1397CB8700998905 /* mine.wav in Resources */,
-				7D20456B1397CB8700998905 /* music.ogg in Resources */,
-				7D20456C1397CB8700998905 /* numbers.png in Resources */,
-				7D20456D1397CB8700998905 /* numbers.txt in Resources */,
-				7D20456E1397CB8700998905 /* pause.png in Resources */,
-				7D20456F1397CB8700998905 /* planet.png in Resources */,
-				7D2045701397CB8700998905 /* play_again.png in Resources */,
-				7D2045711397CB8700998905 /* remaining_checkpoints.png in Resources */,
-				7D2045721397CB8700998905 /* remaining_time.png in Resources */,
-				7D2045731397CB8700998905 /* shield.png in Resources */,
-				7D2045741397CB8700998905 /* shield.wav in Resources */,
-				7D2045751397CB8700998905 /* ship.ase in Resources */,
-				7D2045761397CB8700998905 /* ship.bounds in Resources */,
-				7D2045771397CB8700998905 /* shot.wav in Resources */,
-				7D2045781397CB8700998905 /* starmap.png in Resources */,
-				7D20457B1397CB8C00998905 /* world.txt in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7D1C0CFD13978FFD00787990 /* Sources */ = {
