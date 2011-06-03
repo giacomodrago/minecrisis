@@ -25,34 +25,6 @@
 /****** INITIALIZATION FUNCTIONS ******/
 /**************************************/
 
-/*
-
-// Disabled as of version 0.92
-
-void checkDistributionIntegrity() {
-    #ifndef __APPLE__
-    char* filename;
-    bool success = true;
-    if (!checkCRC32(COPYRIGHT_FILE, COPYRIGHT_FILE_CHECKSUM)) {
-        filename = COPYRIGHT_FILE;
-        success = false;
-    }
-    if (success && !checkCRC32(LICENSE_FILE, LICENSE_FILE_CHECKSUM)) {
-        filename = LICENSE_FILE;
-        success = false;
-    }
-    if (success && !checkCRC32(README_FILE, README_FILE_CHECKSUM)) {
-        filename = README_FILE;
-        success = false;
-    }
-    if (!success) {
-        fprintf(stderr, "ERROR: invalid or corrupted %s file.\n", filename);
-        exit(EXIT_FAILURE);
-    }
-    #endif
-}
-*/
-
 void init(const char* file_path) {
 
     world = loadWorld(file_path);
@@ -86,14 +58,14 @@ void init(const char* file_path) {
     sound_init();
 
     // Set sound buffers
-    sound_buffers.shot = loadSound(SHOT_SOUND_FILE, SHOT_SOUND_FILE_CHECKSUM);
-    sound_buffers.gameover_lose = loadSound(GAMEOVER_LOSE_SOUND_FILE, GAMEOVER_LOSE_SOUND_FILE_CHECKSUM);
-    sound_buffers.gameover_win = loadSound(GAMEOVER_WIN_SOUND_FILE, GAMEOVER_WIN_SOUND_FILE_CHECKSUM);
-    sound_buffers.shield = loadSound(SHIELD_SOUND_FILE, SHIELD_SOUND_FILE_CHECKSUM);
-    sound_buffers.alarm = loadSound(ALARM_SOUND_FILE, ALARM_SOUND_FILE_CHECKSUM);
-    sound_buffers.mine = loadSound(MINE_SOUND_FILE, MINE_SOUND_FILE_CHECKSUM);
-    sound_buffers.checkpoint = loadSound(CHECKPOINT_SOUND_FILE, CHECKPOINT_SOUND_FILE_CHECKSUM);
-    sound_buffers.beep = loadSound(BEEP_SOUND_FILE, BEEP_SOUND_FILE_CHECKSUM);
+    sound_buffers.shot = loadSound(SHOT_SOUND_FILE);
+    sound_buffers.gameover_lose = loadSound(GAMEOVER_LOSE_SOUND_FILE);
+    sound_buffers.gameover_win = loadSound(GAMEOVER_WIN_SOUND_FILE);
+    sound_buffers.shield = loadSound(SHIELD_SOUND_FILE);
+    sound_buffers.alarm = loadSound(ALARM_SOUND_FILE);
+    sound_buffers.mine = loadSound(MINE_SOUND_FILE);
+    sound_buffers.checkpoint = loadSound(CHECKPOINT_SOUND_FILE);
+    sound_buffers.beep = loadSound(BEEP_SOUND_FILE);
 
     // Set sound sources
     sound_sources.gameover = sound_create_source_unpos();
@@ -108,7 +80,7 @@ void init(const char* file_path) {
     }
 
     #if ENABLE_BACKGROUND_MUSIC
-    loadBackgroundMusic(MUSIC_SOUND_FILE, MUSIC_SOUND_FILE_CHECKSUM);
+    loadBackgroundMusic(MUSIC_SOUND_FILE);
     #endif
 
 }
@@ -149,19 +121,19 @@ void initGraphics() {
     // Load textures
     glEnable(GL_TEXTURE_2D);
 
-    textures.planet = loadTexture(PLANET_TEXTURE_FILE, PLANET_TEXTURE_FILE_CHECKSUM);
-    textures.starmap = loadTexture(STARMAP_TEXTURE_FILE, STARMAP_TEXTURE_FILE_CHECKSUM);
-    textures.shield = loadTexture(SHIELD_TEXTURE_FILE, SHIELD_TEXTURE_FILE_CHECKSUM);
-    textures.afterburner = loadTexture(AFTERBURNER_TEXTURE_FILE, AFTERBURNER_TEXTURE_FILE_CHECKSUM);
-    textures.invisibility = loadTexture(INVISIBILITY_TEXTURE_FILE, INVISIBILITY_TEXTURE_FILE_CHECKSUM);
-    textures.numbers = loadTexture(NUMBERS_TEXTURE_FILE, NUMBERS_TEXTURE_FILE_CHECKSUM);
-    textures.remaining_time = loadTexture(REMAINING_TIME_TEXTURE_FILE, REMAINING_TIME_TEXTURE_FILE_CHECKSUM);
-    textures.remaining_checkpoints = loadTexture(REMAINING_CHECKPOINTS_TEXTURE_FILE, REMAINING_CHECKPOINTS_TEXTURE_FILE_CHECKSUM);
-    textures.gameover_lose = loadTexture(GAMEOVER_LOSE_TEXTURE_FILE, GAMEOVER_LOSE_TEXTURE_FILE_CHECKSUM);
-    textures.gameover_lose_timeout = loadTexture(GAMEOVER_LOSE_TIMEOUT_TEXTURE_FILE, GAMEOVER_LOSE_TIMEOUT_TEXTURE_FILE_CHECKSUM);
-    textures.gameover_win = loadTexture(GAMEOVER_WIN_TEXTURE_FILE, GAMEOVER_WIN_TEXTURE_FILE_CHECKSUM);
-    textures.pause = loadTexture(PAUSE_TEXTURE_FILE, PAUSE_TEXTURE_FILE_CHECKSUM);
-    textures.play_again = loadTexture(PLAY_AGAIN_TEXTURE_FILE, PLAY_AGAIN_TEXTURE_FILE_CHECKSUM);
+    textures.planet = loadTexture(PLANET_TEXTURE_FILE);
+    textures.starmap = loadTexture(STARMAP_TEXTURE_FILE);
+    textures.shield = loadTexture(SHIELD_TEXTURE_FILE);
+    textures.afterburner = loadTexture(AFTERBURNER_TEXTURE_FILE);
+    textures.invisibility = loadTexture(INVISIBILITY_TEXTURE_FILE);
+    textures.numbers = loadTexture(NUMBERS_TEXTURE_FILE);
+    textures.remaining_time = loadTexture(REMAINING_TIME_TEXTURE_FILE);
+    textures.remaining_checkpoints = loadTexture(REMAINING_CHECKPOINTS_TEXTURE_FILE);
+    textures.gameover_lose = loadTexture(GAMEOVER_LOSE_TEXTURE_FILE);
+    textures.gameover_lose_timeout = loadTexture(GAMEOVER_LOSE_TIMEOUT_TEXTURE_FILE);
+    textures.gameover_win = loadTexture(GAMEOVER_WIN_TEXTURE_FILE);
+    textures.pause = loadTexture(PAUSE_TEXTURE_FILE);
+    textures.play_again = loadTexture(PLAY_AGAIN_TEXTURE_FILE);
     textures.copy_notice = loadTextureFromBuffer(res_copy_notice, RES_COPY_NOTICE_SIZE, RES_COPY_NOTICE_CHECKSUM);
 
     // Generate display lists
@@ -171,12 +143,12 @@ void initGraphics() {
 
 /**************************************/
 
-texture_t loadTexture(const char* filename, crc32_t checksum) {
+texture_t loadTexture(const char* filename) {
     bool success = false;
     texture_t result;
     unsigned char* buffer;
     int buf_len = readFile(filename, &buffer);
-    if (buf_len != FILE_READ_ERROR && calculate_crc32(buffer, buf_len) == checksum) {
+    if (buf_len != FILE_READ_ERROR) {
         result = texture_load_PNG_buf(buffer, buf_len, GL_LINEAR, GL_LINEAR);
         if (result != TEXTURE_LOAD_ERROR) success = true;
     }
@@ -208,12 +180,12 @@ texture_t loadTextureFromBuffer(const unsigned char* buffer, int buf_len, crc32_
 
 /**************************************/
 
-sound_buffer_t loadSound(const char* filename, crc32_t checksum) {
+sound_buffer_t loadSound(const char* filename) {
     bool success = false;
     sound_buffer_t result;
     unsigned char* buffer;
     int buf_len = readFile(filename, &buffer);
-    if (buf_len != FILE_READ_ERROR && calculate_crc32(buffer, buf_len) == checksum) {
+    if (buf_len != FILE_READ_ERROR) {
         result = sound_create_buffer_wav(buffer, buf_len);
         if (result != BUFFER_LOAD_ERROR) success = true;
     }
@@ -229,18 +201,9 @@ sound_buffer_t loadSound(const char* filename, crc32_t checksum) {
 
 /**************************************/
 
-void loadBackgroundMusic(const char* filename, crc32_t checksum) {
-    bool success = false;
+void loadBackgroundMusic(const char* filename) {
     music.data_len = readFile(filename, &music.data);
-    #if MUSIC_SOUND_FILE_CHECK
-    if (calculate_crc32(music.data, music.data_len) == checksum) {
-        success = true;
-    }
-    #else
-    success = true;
-    #endif
-
-    if (success) {
+    if (music.data_len != FILE_READ_ERROR) {
         printf("Loaded '%s' successfully.\n", filename);
     } else {
         fprintf(stderr, "ERROR: error loading '%s' background music!\n", filename);
@@ -416,24 +379,21 @@ void generateMineGroups() {
 
 void loadShipModel() {
 
-    if (checkCRC32(SHIP_MODEL_FILE, SHIP_MODEL_FILE_CHECKSUM)) {
-        models.ship = ASE_create(SHIP_MODEL_FILE);
-    } else {
-        fprintf(stderr, "ERROR: Error loading '%s' file!\n", SHIP_MODEL_FILE);
-        exit(EXIT_FAILURE);
-    }
+    models.ship = ASE_create(SHIP_MODEL_FILE);
+    printf("Loaded '%s' successfully.\n", SHIP_MODEL_FILE);
+
     ASE_swapYZ(models.ship);
+
     double translate_x, translate_y, translate_z;
     ASE_centerModel(models.ship, &translate_x, &translate_y, &translate_z);
+
     ASE_scaleModel(models.ship,
                    SHIP_MODEL_SCALING_FACTOR, SHIP_MODEL_SCALING_FACTOR, SHIP_MODEL_SCALING_FACTOR);
 
-    if (checkCRC32(SHIP_BOUNDS_FILE, SHIP_BOUNDS_FILE_CHECKSUM)) {
-        models.ship_boxes = boundingboxes_load(SHIP_BOUNDS_FILE, true);
-    } else {
-        fprintf(stderr, "ERROR: Error loading '%s' file!\n", SHIP_BOUNDS_FILE);
-        exit(EXIT_FAILURE);
-    }
+    models.ship_boxes = boundingboxes_load(SHIP_BOUNDS_FILE, true);
+
+    printf("Loaded '%s' successfully.\n", SHIP_BOUNDS_FILE);
+
     // Scale and translate boxes
     for (int i = 0; i < models.ship_boxes.n_boxes; i++) {
         bounding_box_t* curr_box = &models.ship_boxes.array[i];
@@ -466,29 +426,30 @@ void loadShipModel() {
 /**************************************/
 
 void loadTextureCoords() {
+
     bool success = true;
-    if (checkCRC32(NUMBERS_COORDS_FILE, NUMBERS_COORDS_FILE_CHECKSUM)) {
-        FILE* coords_fp = fopen(NUMBERS_COORDS_FILE, "r");
-        if (!coords_fp) success = false;
-        if (success) {
-            char line[256];
-            int c = 0;
-            while (fgets(line, sizeof(line), coords_fp) != NULL) {
-                sscanf(line, "%lf %lf %lf %lf",
-                       &textures.numbers_coords[c][0],
-                       &textures.numbers_coords[c][1],
-                       &textures.numbers_coords[c][2],
-                       &textures.numbers_coords[c][3]);
-                c++;
-            }
+
+    FILE* coords_fp = fopen(NUMBERS_COORDS_FILE, "r");
+    if (!coords_fp) success = false;
+    if (success) {
+        printf("Loaded '%s' successfully.\n", NUMBERS_COORDS_FILE);
+        char line[256];
+        int c = 0;
+        while (fgets(line, sizeof(line), coords_fp) != NULL) {
+            sscanf(line, "%lf %lf %lf %lf",
+                   &textures.numbers_coords[c][0],
+                   &textures.numbers_coords[c][1],
+                   &textures.numbers_coords[c][2],
+                   &textures.numbers_coords[c][3]);
+            c++;
         }
-    } else {
-        success = false;
     }
+
     if (!success) {
         fprintf(stderr, "ERROR: Error loading '%s' file!\n", NUMBERS_COORDS_FILE);
         exit(EXIT_FAILURE);
     }
+
 }
 
 /**************************************/

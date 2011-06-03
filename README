@@ -1,6 +1,6 @@
-*****************************
-*** MineCrisis v0.92 beta ***
-*****************************
+******************************
+*** MineCrisis v0.921 beta ***
+******************************
 
 (c)2010 Giacomo Drago. All rights reserved.
 Released under the terms of the GPLv3 license
@@ -27,6 +27,8 @@ mines and the shots of the automatic turrets.
 NEWS / CHANGELOG
 
 
+2011-06-03        Version 0.921 beta relased: removed distribution integrity check,
+                  that was causing errors in OSX precompiled package.
 2011-05-30        Version 0.92 beta relased: fixed distribution integrity check,
                   that was causing errors in pre-compiled packages.
                   No longer making pre-compiled packages for Linux (source available).

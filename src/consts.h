@@ -22,8 +22,8 @@
 #define CONSTS_H
 
 // Program constants
-#define PROGRAM_NAME "MINE CRISIS v0.92 beta"
-#define COPYRIGHT_NOTICE "(c)2010 Giacomo Drago. All rights reserved."
+#define PROGRAM_NAME "MINE CRISIS v0.921 beta"
+#define COPYRIGHT_NOTICE "(c)2010-2011 Giacomo Drago. All rights reserved."
 #define WINDOW_TITLE "Mine Crisis"
 #define WINDOW_WIDTH 800
 #define WINDOW_HEIGHT 600
@@ -46,96 +46,33 @@
 
 #define WORLD_FILE "./worlds/world.txt"
 
-/*
-
-// Disabled as of version 0.92
-
-#define COPYRIGHT_FILE "COPYRIGHT.TXT"
-    #define COPYRIGHT_FILE_CHECKSUM 3544333434
-
-#define LICENSE_FILE "LICENSE.TXT"
-    #define LICENSE_FILE_CHECKSUM 1403050127
-
-#define README_FILE "README.TXT"
-    #define README_FILE_CHECKSUM 3285314056
-
-*/
-
 #define PLANET_TEXTURE_FILE "./data/planet.png"
-    #define PLANET_TEXTURE_FILE_CHECKSUM 1907437650
-
 #define STARMAP_TEXTURE_FILE "./data/starmap.png"
-    #define STARMAP_TEXTURE_FILE_CHECKSUM 1880947955
-
 #define SHIELD_TEXTURE_FILE "./data/shield.png"
-    #define SHIELD_TEXTURE_FILE_CHECKSUM 1867088182
-
 #define AFTERBURNER_TEXTURE_FILE "./data/afterburner.png"
-    #define AFTERBURNER_TEXTURE_FILE_CHECKSUM 1924308016
-
 #define INVISIBILITY_TEXTURE_FILE "./data/invisibility.png"
-    #define INVISIBILITY_TEXTURE_FILE_CHECKSUM 1783708284
-
 #define NUMBERS_TEXTURE_FILE "./data/numbers.png"
-    #define NUMBERS_TEXTURE_FILE_CHECKSUM 3382335371
-
 #define REMAINING_TIME_TEXTURE_FILE "./data/remaining_time.png"
-    #define REMAINING_TIME_TEXTURE_FILE_CHECKSUM 2957264435
-
 #define REMAINING_CHECKPOINTS_TEXTURE_FILE "./data/remaining_checkpoints.png"
-    #define REMAINING_CHECKPOINTS_TEXTURE_FILE_CHECKSUM 767065940
-
 #define GAMEOVER_LOSE_TEXTURE_FILE "./data/gameover_lose.png"
-    #define GAMEOVER_LOSE_TEXTURE_FILE_CHECKSUM 1813625396
-
 #define GAMEOVER_LOSE_TIMEOUT_TEXTURE_FILE "./data/gameover_lose_timeout.png"
-    #define GAMEOVER_LOSE_TIMEOUT_TEXTURE_FILE_CHECKSUM 1440625490
-
 #define GAMEOVER_WIN_TEXTURE_FILE "./data/gameover_win.png"
-    #define GAMEOVER_WIN_TEXTURE_FILE_CHECKSUM 3403992007
-
 #define PAUSE_TEXTURE_FILE "./data/pause.png"
-    #define PAUSE_TEXTURE_FILE_CHECKSUM 2088678305
-
 #define PLAY_AGAIN_TEXTURE_FILE "./data/play_again.png"
-    #define PLAY_AGAIN_TEXTURE_FILE_CHECKSUM 746037917
-
 #define SHOT_SOUND_FILE "./data/shot.wav"
-    #define SHOT_SOUND_FILE_CHECKSUM 3745068138
-
 #define GAMEOVER_WIN_SOUND_FILE "./data/gameover_win.wav"
-    #define GAMEOVER_WIN_SOUND_FILE_CHECKSUM 2288608036
-
 #define GAMEOVER_LOSE_SOUND_FILE "./data/gameover_lose.wav"
-    #define GAMEOVER_LOSE_SOUND_FILE_CHECKSUM 1067008452
-
 #define SHIELD_SOUND_FILE "./data/shield.wav"
-    #define SHIELD_SOUND_FILE_CHECKSUM 4289915498
-
 #define ALARM_SOUND_FILE "./data/alarm.wav"
-    #define ALARM_SOUND_FILE_CHECKSUM 3859811983
-
 #define MINE_SOUND_FILE "./data/mine.wav"
-    #define MINE_SOUND_FILE_CHECKSUM 1056408803
-
 #define CHECKPOINT_SOUND_FILE "./data/checkpoint.wav"
-    #define CHECKPOINT_SOUND_FILE_CHECKSUM 1790473537
-
 #define BEEP_SOUND_FILE "./data/beep.wav"
-    #define BEEP_SOUND_FILE_CHECKSUM 274561054
-
 #define MUSIC_SOUND_FILE "./data/music.ogg"
-    #define MUSIC_SOUND_FILE_CHECKSUM 2373720264
-    #define MUSIC_SOUND_FILE_CHECK 1
-
 #define NUMBERS_COORDS_FILE "./data/numbers.txt"
-    #define NUMBERS_COORDS_FILE_CHECKSUM 1257072565
 
 #define SHIP_MODEL_FILE "./data/ship.ase"
-    #define SHIP_MODEL_FILE_CHECKSUM 3069233350
-
 #define SHIP_BOUNDS_FILE "./data/ship.bounds"
-    #define SHIP_BOUNDS_FILE_CHECKSUM 3007553988
+
 
 // Throttle constants
 #define THROTTLE_DEFAULT 50.0

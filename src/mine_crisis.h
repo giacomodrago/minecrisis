@@ -251,10 +251,10 @@ struct {
 void checkDistributionIntegrity();
 void init(const char* file_path);
 void initGraphics();
-static inline texture_t loadTexture(const char* filename, crc32_t checksum);
+static inline texture_t loadTexture(const char* filename);
 texture_t loadTextureFromBuffer(const unsigned char* buffer, int buf_len, crc32_t checksum);
-sound_buffer_t loadSound(const char* filename, crc32_t checksum);
-static inline void loadBackgroundMusic(const char* filename, crc32_t checksum);
+sound_buffer_t loadSound(const char* filename);
+static inline void loadBackgroundMusic(const char* filename);
 static inline void generateLists();
 static inline void generateMineGroups();
 static inline void loadShipModel();
