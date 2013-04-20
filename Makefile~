@@ -1,0 +1,21 @@
+CC		= g++
+CFLAGS		= -c -fopenmp -std=c++11  -Wall -fmessage-length=0  -Iinclude
+CRELEASEFLAGS   = -DNDEBUG -O3 -fexpensive-optimizations
+LDFLAGS		= -fopenmp -lmotifsearch
+
+SOURCES		= $(wildcard src/*.cpp)
+OBJECTS		= $(SOURCES:.cpp=.o)
+EXECUTABLE 	= motifsearchtest
+
+all: $(SOURCES) $(EXECUTABLE)
+
+$(EXECUTABLE): $(OBJECTS)
+	$(CC) $(OBJECTS) -o $@ $(LDFLAGS)
+
+.cpp.o:
+	$(CC) $(CFLAGS) $(CRELEASEFLAGS) $< -o $@
+
+clean:
+	@rm -f $(EXECUTABLE)
+	@rm -f $(OBJECTS)
+	@rm -f *~
