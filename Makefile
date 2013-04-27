@@ -1,7 +1,7 @@
 CC		= gcc
 CFLAGS		= -c -std=c99 -fmessage-length=0 -Wno-unused-result
 CRELEASEFLAGS   = -DNDEBUG -O3 -fexpensive-optimizations
-LDFLAGS		= -lglut -lGLU -lGL -lpng -lopenal -lvorbisfile -lvorbis -logg
+LDFLAGS		= -lglut -lGLU -lGL -lpng -lopenal -lvorbisfile -lvorbis -logg -lm -lpthread
 
 SOURCES		= src/ase_importer.c src/explosion.c src/random.c src/utils.c \
 			src/bounding_boxes.c  src/geom.c src/resources.c src/world.c \
