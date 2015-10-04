@@ -51,10 +51,10 @@ typedef struct {
 
 typedef point_t vector_t;
 
-const static point_t ORIGIN = {0.0, 0.0, 0.0};
-const static vector_t X_AXIS = {1.0, 0.0, 0.0};
-const static vector_t Y_AXIS = {0.0, 1.0, 0.0};
-const static vector_t Z_AXIS = {0.0, 0.0, 1.0};
+static const point_t ORIGIN = {0.0, 0.0, 0.0};
+static const vector_t X_AXIS = {1.0, 0.0, 0.0};
+static const vector_t Y_AXIS = {0.0, 1.0, 0.0};
+static const vector_t Z_AXIS = {0.0, 0.0, 1.0};
 
 point_t create_point(double x, double y, double z);
 line_t create_line(double l, double m, double n, double x0, double y0, double z0);

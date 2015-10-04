@@ -56,23 +56,23 @@
 
 
 // materials
-const static float starmap_color[] = { 0.5, 0.5, 0.5, 1.0 };
-const static float planet_color[] = { 1.0, 1.0, 1.0, 1.0 };
-const static float checkpoint_color[] = { 1.0, 1.0, 0.0, 1.0 };
-const static float mine_diffuse[] = { 1.0, 1.0, 1.0, 1.0 };
-const static float mine_specular[] = { 1.0, 1.0, 1.0, 1.0 };
-const static int mine_shininess = 12;
-const static float turret_color[] = { 0.1, 0.1, 0.1, 1.0 };
-const static float turret_specular[] = { 1.0, 1.0, 1.0, 1.0 };
-const static int turret_shininess = 12;
-const static float shot_color[] = { 0.0, 1.0, 0.0, 1.0 };
-const static float ship_body_color[] = { 0.7, 0.7, 0.7, 1.0 };
-const static float ship_glass_color[] = { 0.1, 0.1, 0.1, 1.0 };
-const static float ship_decorations_color[] = { 0.9, 0.1, 0.0, 1.0 };
-const static float ship_glow_color[] = { 0.6, 0.85, 1.0, 1.0 };
-const static float ship_shield_color[] = { 1.0, 0.0, 1.0, 1.0 };
-const static float white[] = { 1.0, 1.0, 1.0, 1.0 };
-const static float no_color[] = { 0.0, 0.0, 0.0, 1.0 };
+static const float starmap_color[] = { 0.5, 0.5, 0.5, 1.0 };
+static const float planet_color[] = { 1.0, 1.0, 1.0, 1.0 };
+static const float checkpoint_color[] = { 1.0, 1.0, 0.0, 1.0 };
+static const float mine_diffuse[] = { 1.0, 1.0, 1.0, 1.0 };
+static const float mine_specular[] = { 1.0, 1.0, 1.0, 1.0 };
+static const int mine_shininess = 12;
+static const float turret_color[] = { 0.1, 0.1, 0.1, 1.0 };
+static const float turret_specular[] = { 1.0, 1.0, 1.0, 1.0 };
+static const int turret_shininess = 12;
+static const float shot_color[] = { 0.0, 1.0, 0.0, 1.0 };
+static const float ship_body_color[] = { 0.7, 0.7, 0.7, 1.0 };
+static const float ship_glass_color[] = { 0.1, 0.1, 0.1, 1.0 };
+static const float ship_decorations_color[] = { 0.9, 0.1, 0.0, 1.0 };
+static const float ship_glow_color[] = { 0.6, 0.85, 1.0, 1.0 };
+static const float ship_shield_color[] = { 1.0, 0.0, 1.0, 1.0 };
+static const float white[] = { 1.0, 1.0, 1.0, 1.0 };
+static const float no_color[] = { 0.0, 0.0, 0.0, 1.0 };
 
 
 void drawAxes(double x_len, double y_len, double z_len);

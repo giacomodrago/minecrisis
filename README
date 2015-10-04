@@ -1,6 +1,4 @@
-******************************
-*** MineCrisis v0.921 beta ***
-******************************
+MineCrisis v0.921 beta
 
 (c)2010 Giacomo Drago. All rights reserved.
 Released under the terms of the GPLv3 license
@@ -10,11 +8,7 @@ website: http://giacomodrago.com/go/minecrisis
 e-mail: giacomo@giacomodrago.com
 
 
-________________________________________________________________________
 
-                               README
-                               
-                               
 ABOUT
 
 MineCrisis is a 3D action game. The player controls a spaceship; the aim
@@ -85,4 +79,3 @@ ON-SCREEN INDICATORS
 3. Afterburner (turbo) "fuel" indicator
      afterburner "fuel" gets consumed when the afterburner is engaged
      and slowly recharges when it's idle.
-
